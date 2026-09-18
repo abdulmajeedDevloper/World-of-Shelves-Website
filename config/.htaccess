@@ -1,0 +1,4 @@
+# Prevent direct access to SQLite database and PHP configuration files
+<FilesMatch "\.(db|php)$">
+    Require all denied
+</FilesMatch>

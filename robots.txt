@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /config/
+Disallow: /includes/
+Disallow: /lang/
+Disallow: /vendor/
+Disallow: /storage/
+Disallow: /logs/
+Disallow: /scripts/
+Disallow: /diag*.php
+Disallow: /.git/
+Disallow: /*.db
+Disallow: /*.sqlite
+
+Sitemap: https://worldofshelves.com/sitemap.xml
